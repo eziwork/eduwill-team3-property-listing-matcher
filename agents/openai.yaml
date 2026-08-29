@@ -1,0 +1,4 @@
+interface:
+  display_name: "손님 맞춤 매물장 관리 비서"
+  short_description: "Google·로컬 Excel 매물장을 만들고 검색·관리합니다"
+  default_prompt: "$eduwill-property-listing-matcher로 사용법과 현재 매물장 등록·활성 상태부터 알려줘."

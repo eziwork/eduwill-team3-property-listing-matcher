@@ -61,7 +61,7 @@ class UserExperienceContractTests(unittest.TestCase):
 
     def test_readme_installs_the_matching_github_repository_and_skill_folder(self) -> None:
         readme = (SKILL_DIR / "README.md").read_text(encoding="utf-8")
-        self.assertIn("eziwork/eduwill-team3-property-listing-matcher-ljw.git", readme)
+        self.assertIn("eziwork/eduwill-team3-property-listing-matcher.git", readme)
         self.assertIn("~/.codex/skills/eduwill-property-listing-matcher", readme)
 
 

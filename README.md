@@ -52,7 +52,7 @@ ZIP이 Desktop에 있다면 `Downloads`를 `Desktop`으로 바꿉니다. `doctor
 ## GitHub에서 설치
 
 ```bash
-git clone https://github.com/eziwork/eduwill-team3-property-listing-matcher-ljw.git \
+git clone https://github.com/eziwork/eduwill-team3-property-listing-matcher.git \
   ~/.codex/skills/eduwill-property-listing-matcher
 python3 -m pip install --user openpyxl
 ```
